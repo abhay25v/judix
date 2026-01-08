@@ -2,6 +2,31 @@
 
 Production-ready full-stack app with JWT authentication (stored in httpOnly cookies) and a Tasks CRUD module.
 
+## Screenshots
+
+Put your screenshots in `docs/screenshots/` with these filenames:
+
+1. `1.jpg` - Login page (home)
+2. `2.jpg` - Dashboard
+3. `3.jpg` - Adding a task
+4. `4.jpg` - Marking a task complete
+
+### 1) Login
+
+![Login page](docs/screenshots/1.png)
+
+### 2) Dashboard
+
+![Dashboard](docs/screenshots/2.png)
+
+### 3) Adding a Task
+
+![Add task](docs/screenshots/3.png)
+
+### 4) Marking Complete
+
+![Mark complete](docs/screenshots/4.png)
+
 ## Tech Stack
 
 - Frontend: Next.js 14 (App Router), TypeScript, Tailwind CSS, Axios, Zustand

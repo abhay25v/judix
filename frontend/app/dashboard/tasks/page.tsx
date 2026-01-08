@@ -121,11 +121,11 @@ export default function TasksPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div className="space-y-1">
             <label className="text-sm font-medium">Title</label>
-            <input value={title} onChange={(e) => setTitle(e.target.value)} className="w-full" />
+            <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} className="w-full" />
           </div>
           <div className="space-y-1">
             <label className="text-sm font-medium">Description</label>
-            <input value={description} onChange={(e) => setDescription(e.target.value)} className="w-full" />
+            <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} className="w-full" />
           </div>
         </div>
         <button className="btn-primary">Add Task</button>
@@ -172,8 +172,8 @@ function TaskRow({
         <div className="flex-1">
           {editing ? (
             <div className="space-y-2">
-              <input value={title} onChange={(e) => setTitle(e.target.value)} className="w-full" />
-              <input value={description} onChange={(e) => setDescription(e.target.value)} className="w-full" />
+              <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} className="w-full" />
+              <input type="text" value={description} onChange={(e) => setDescription(e.target.value)} className="w-full" />
             </div>
           ) : (
             <>
